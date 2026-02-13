@@ -1,7 +1,5 @@
 # Kiro Demo POS - AI Powered Point of Sale
 
-![Kiro Demo POS Banner](https://via.placeholder.com/1200x400?text=Kiro+Demo+POS+Laravel+Filament)
-
 Selamat datang di repositori **Kiro Demo POS**. Proyek ini adalah aplikasi Point of Sale (POS) modern yang dibangun menggunakan **Laravel Filament**, **Docker**, dan **PostgreSQL**.
 
 Tujuan utama dari repositori ini adalah sebagai **bahan pembelajaran (tutorial)** untuk mendemonstrasikan bagaimana **Kiro** (AWS AI Assistant) dapat digunakan untuk mempercepat pengembangan aplikasi dan membangun fitur asisten AI cerdas di dalam ekosistem Laravel.
@@ -66,9 +64,8 @@ DB_PASSWORD=password
 
 Karena kita tidak menggunakan Composer di komputer lokal, kita akan memerintahkan Docker untuk menjalankannya.
 
-Bash
-# Perintah ini akan mendownload image, install vendor, lalu menghapus container sementara
-# Pastikan nama service sesuai dengan docker-compose.yml (biasanya 'laravel.test' atau 'app')
+#### Perintah ini akan mendownload image, install vendor, lalu menghapus container sementara
+#### Pastikan nama service sesuai dengan docker-compose.yml (biasanya 'laravel.test' atau 'app')
 ```bash
 docker compose run --rm laravel.test composer install
 ```
