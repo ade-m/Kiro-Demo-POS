@@ -1,7 +1,5 @@
 # Kiro Demo POS - Spec-Driven Development Showcase
 
-![Kiro Demo POS Banner](https://via.placeholder.com/1200x400?text=Kiro+Demo+POS+Spec+Driven+Dev)
-
 Selamat datang di repositori **Kiro Demo POS**.
 
 Proyek ini adalah demonstrasi nyata penggunaan **Kiro** (AWS AI Assistant) untuk membangun perangkat lunak Point of Sale (POS) yang kompleks menggunakan pendekatan **Spec-Driven Development (SDD)**.
